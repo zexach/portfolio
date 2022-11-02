@@ -19,17 +19,18 @@ defineProps(['buttonText'])
     button{
         width: 17rem;
         height: 3rem;
-        border: 0.125rem solid #f60085;
+        border: 0;
         border-radius: 1.875rem;
-        background-color: #211E22;
-        color: #f60085;
+        background-color: #1b1a1a;
+        box-shadow: 1px 1px 11px 2px rgba(2,50,148,0.15);
+        color: #02a9db;
         font-size: 1rem;
         transition: 0.3s;
     }
     button:hover{
         width: 18rem;
         height: 3.5rem;
-        background-color: #f60085;
-        color: #211E22;
+        background-color: #02a9db;
+        color: #0f0f0f;
     }
 </style>

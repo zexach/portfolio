@@ -11,10 +11,21 @@
 </template>
 
 <style scoped>
-    .role{
-        opacity: 0.7;
-    }
     .fullname{
         font-weight: 700;
+    }
+    .description{
+        justify-self: center;
+    }
+    @media screen and (max-width: 600px) {
+        .about{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .description{
+            text-align: center;
+        }
     }
 </style>

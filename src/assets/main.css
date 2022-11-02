@@ -7,15 +7,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: linear-gradient(56deg, rgba(15,13,16,1) 0%, rgba(15,13,16,1) 40%, rgba(33,30,34,1) 100%);
-  color: #F60085;
+  background: #0f0f0f;
+  color: #02a9db;
   font-weight: normal;
   font-family: 'Montserrat', sans-serif;
 }
 
 a{
   text-decoration: none;
-  color: #F60085;
+  color: #02a9db;
 }
 
 button{

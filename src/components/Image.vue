@@ -15,8 +15,13 @@
     }
     img{
         width: 26rem;
-        border: 0.983rem solid #2C2C2C;
-        box-shadow: 0rem 0.25rem 1.25rem 0.625rem rgba(0, 0, 0, 0.25);
+        border: 0.583rem solid #02a9db;
+        box-shadow: 1px 1px 11px 2px rgba(12, 12, 12, 0.35);
         border-radius: 12rem;
+    }
+    @media screen and (max-width: 600px) {
+        img{
+            width: 20rem;
+        }
     }
 </style>

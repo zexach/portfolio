@@ -4,9 +4,9 @@
 
 <style scoped>
     div{
-        width: 0.5rem;
+        width: 0.2rem;
         height: 30rem;
-        background-color: #f60085;
+        background-color: #02a9db;
         border-radius: 20px;
     }
 </style>

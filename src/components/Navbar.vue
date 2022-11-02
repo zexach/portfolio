@@ -1,5 +1,14 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+import { ref } from 'vue';
+
+const showNav = ref(false)
+
+const handleClickOutside = () => {
+    if(showNav.value){
+        showNav.value = false
+    }
+}
 
 </script>
 
@@ -7,24 +16,48 @@ import { RouterLink, RouterView } from 'vue-router'
     <div class="navbar">
         <h3 class="title">Emir Zambaković</h3>
         <div class="pages">
-            <RouterLink to="/"><h5 class="page">About</h5></RouterLink>
-            <RouterLink to="/skills"><h5 class="page">Skills</h5></RouterLink>
+            <a href="#about" class="page">About</a>
+            <a href="#skills" class="page">Skills</a>
             <h5 class="page">Portfolio</h5>
         </div>
+        <svg class="toggle-sandwich" @click="showNav = !showNav" width="39" height="39" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5 17h8"></path>
+            <path d="M5 12h14"></path>
+            <path d="M5 7h8"></path>
+        </svg>
+        <Transition name="slide">
+            <div v-click-outside="handleClickOutside" @click="showNav = false" class="mobile-menu" v-if="showNav">
+                <div class="pages-mob">
+                    <a href="#about" class="page">About</a>
+                    <a href="#skills" class="page">Skills</a>
+                    <h5 class="page">Portfolio</h5>
+                </div>
+                <h6 class="name">© 2022 Emir Zambaković</h6>
+            </div>
+        </Transition>
     </div>
 </template>
 
 <style scoped>
     .navbar{
         width: 100%;
-        padding: 1rem 5rem;
+        padding: 1rem 7rem;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-        background-color: #0F0D10;
-        box-shadow: 0px 5px 29px -6px rgba(255,0,194,0.43);
+        background-color: #0f0f0f;
+        box-shadow: 0px 5px 29px -6px rgba(0, 197, 241, 0.441);
+    }
+    .toggle-sandwich{
+        display: none;
+    }
+    .mobile-menu{
+        display: none;
+    }
+    .title{
+        font-weight: 500;
     }
     .pages{
         display: flex;
@@ -39,5 +72,65 @@ import { RouterLink, RouterView } from 'vue-router'
     }
     h5{
         font-size: 1rem;
+    }
+    @media screen and (max-width: 600px) {
+        .navbar{
+            padding: 1rem 1.5rem;
+            justify-content: space-between;
+            gap: 0.625rem;
+        }
+        .toggle-sandwich{
+            display:block;
+        }
+        .pages{
+            display: none;
+        }
+        .pages-mob{
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+        .page{
+            color: #0f0f0f;
+            font-size: 1.125rem;
+            font-weight: 500;
+            border-bottom: 0.05rem solid #0f0f0f69;
+        }
+        .title{
+            font-size: 1.125rem;
+        }
+        .mobile-menu{
+            width: 13.25rem;
+            height: 25rem;
+            padding: 1.5rem 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: #02a9db;
+            color: #0f0f0f;
+            box-shadow: 0px 5px 29px -6px rgba(0, 197, 241, 0.441);
+            position: absolute;
+            top: 4.5rem;
+            right: 0;
+            z-index: 2;
+        }
+        .name{
+            padding: 0 1.5rem;
+            font-weight: 600;
+        }
+        .slide-enter-active {
+            transition: all 0.3s;
+        }
+
+        .slide-leave-active {
+            transition: all 0.3s linear;
+        }
+
+        .slide-enter-from,
+        .slide-leave-to {
+            transform: translateX(13.25rem);
+            opacity: 1;
+        }
     }
 </style>

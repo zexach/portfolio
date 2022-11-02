@@ -2,19 +2,19 @@
 import Image from '../components/Image.vue'
 import About from '../components/About.vue'
 import Button from '../components/Button.vue'
-import Linea from '../components/Linea.vue'
 
 </script>
 
 <template>
-  <div class="home">
+  <div id="about" class="home">
     <div class="content">
-      <Linea />
       <Image />
       <div class="home-content">
         <About />
         <div class="home-buttons">
-          <Button buttonText="Download CV" />
+          <a href="https://drive.google.com/uc?export=download&id=19iFYiJx6NDXld89VNM98m81QdwGaSU8H" download="EmirZambakovic.pdf">
+            <Button buttonText="Download CV" />
+          </a>
           <Button buttonText="Contact me" />
         </div>
       </div>
@@ -37,7 +37,10 @@ import Linea from '../components/Linea.vue'
     justify-content: center;
     align-items: center;
     gap: 3rem;
+    z-index: 1;
+    position: relative;
   }
+  
   .home-content{
     width: 50%;
     display: flex;
@@ -53,5 +56,25 @@ import Linea from '../components/Linea.vue'
     justify-content: flex-start;
     align-items: center;
     gap: 3rem;
+  }
+
+  @media screen and (max-width: 600px) {
+    .home{
+    min-height: 0;
+    padding: 1.5rem;
+  }
+  .content{
+    flex-direction: column;
+  }
+  
+  .home-content{
+    width: 100%;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .home-buttons{
+    justify-content: center;
+    gap: 1rem;
+  }
   }
 </style>
