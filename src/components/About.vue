@@ -17,6 +17,17 @@
     .description{
         justify-self: center;
     }
+    @media screen and (min-width: 601px) and (max-width: 1024px){
+        .about{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .description{
+            text-align: center;
+        }
+    }
     @media screen and (max-width: 600px) {
         .about{
             display: flex;

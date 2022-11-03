@@ -58,6 +58,16 @@ import Button from '../components/Button.vue'
     gap: 3rem;
   }
 
+  @media screen and (min-width: 601px) and (max-width: 1024px){
+    .content{
+      flex-direction: column;
+    }
+    .home-buttons{
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+  }
+
   @media screen and (max-width: 600px) {
     .home{
     min-height: 0;

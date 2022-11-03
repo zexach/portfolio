@@ -47,8 +47,11 @@ const handleClickOutside = () => {
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-        background-color: #0f0f0f;
-        box-shadow: 0px 5px 29px -6px rgba(0, 197, 241, 0.441);
+        background-color: rgb(15, 15, 15, 0.6);
+        box-shadow: 0px 5px 29px -6px rgba(0, 197, 241, 0.439);
+        position: sticky;
+        top: 0;
+        z-index: 3;
     }
     .toggle-sandwich{
         display: none;
@@ -63,15 +66,25 @@ const handleClickOutside = () => {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
     }
     .page{
         margin: 0 1rem;
+        transition: 0.2s;
+    }
+    .page:hover{
+        scale: 1.095;
     }
     h3{
         font-size: 1.5rem;
     }
     h5{
         font-size: 1rem;
+    }
+    @media screen and (min-width: 601px) and (max-width: 1024px){
+        .navbar{
+            padding: 1rem 3rem;
+        }
     }
     @media screen and (max-width: 600px) {
         .navbar{
