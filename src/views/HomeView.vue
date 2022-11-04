@@ -15,7 +15,9 @@ import Button from '../components/Button.vue'
           <a href="https://drive.google.com/uc?export=download&id=19iFYiJx6NDXld89VNM98m81QdwGaSU8H" download="EmirZambakovic.pdf">
             <Button buttonText="Download CV" />
           </a>
-          <Button buttonText="Contact me" />
+          <a href="#contact">
+            <Button buttonText="Contact me" />
+          </a>
         </div>
       </div>
     </div>
