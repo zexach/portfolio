@@ -1,25 +1,66 @@
 <script setup>
+    import emailjs from 'emailjs-com';
+    import { ref } from 'vue';
+    import axios from 'axios'
+
+    /* const form = ref(null);
+    const inputFieldReset = ref(null);
+
+    const handleSendMail = () => {
+        emailjs.sendForm('service_tpgwqtt', 'template_1tayn0d', form.value, 'eyjHM7vPS1VsYrbD4')
+        .then(() => {
+          alert('Message sent!')
+          inputFieldReset.value = " ";
+        }, (error) => {
+          alert('Message not sent', error);
+        }); 
+    }
+*/
+    const show = () => {
+        console.log(form.value)
+    }
+
+    const form = ref({
+        fullName: '',
+        email: '',
+        message: ''
+    })
+
+    const handleSendMail = async() => {
+        const response = await axios.post('https://api.emailjs.com/api/v1.0/email/send', 
+        {
+            service_id: 'service_tpgwqtt',
+            template_id: 'template_1tayn0d',
+            user_id: 'eyjHM7vPS1VsYrbD4'
+        }
+        )
+        console.log(response)
+    }
 
 </script>
 
 <template>
     <div class="contact-form">
-        <div class="left-side">
-            <div class="input">
-                <label for="full-name">Full name</label>
-                <input class="full-name" type="text" size="40">
+        <form @submit.prevent="handleSendMail" class="contact-form">
+            <div class="left-side">
+                <div class="input">
+                    <label for="full-name">Full name</label>
+                    <input class="full-name" type="text" size="40" v-model="form.fullName" required>
+                </div>
+                <div class="input">
+                    <label for="email">Email</label>
+                    <input class="email" type="email" size="40" v-model="form.email" required>
+                </div>
             </div>
-            <div class="input">
-                <label for="email">Email</label>
-                <input class="email" type="email" size="40">
+            <div class="right-side">
+                <div class="input-textarea">
+                    <label class="textarea-label">Your message</label>
+                    <textarea rows="5" cols="40" v-model="form.message" required></textarea>
+                </div>
             </div>
-        </div>
-        <div class="right-side">
-            <div class="input-textarea">
-                <label class="textarea-label">Your message</label>
-                <textarea rows="5" cols="40"></textarea>
-            </div>
-        </div>
+            <input class="submit" type="submit" name="send" />
+        </form>
+        <button @click="show">show</button>
     </div>
 </template>
 
@@ -55,7 +96,7 @@
         gap: 0.3rem;
     }
     input{
-        background-color: #02a9db;
+        background-color: transparent;
         color: #0f0f0f;
         border: 0;
         border-bottom: 0.063rem solid #0f0f0f;
@@ -75,9 +116,15 @@
         line-height: 1.3;
         resize: none;
     }
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 1024px) {
         .contact-form{
+            width: 100%;
+            padding: 1.5rem;
             flex-direction: column;
+            gap: 2rem;
+        }
+        .right-side{
+            align-self: center;
         }
     }
 </style>
