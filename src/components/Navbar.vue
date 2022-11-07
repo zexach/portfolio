@@ -18,7 +18,7 @@ const handleClickOutside = () => {
         <div class="pages">
             <a href="#about" class="page">About</a>
             <a href="#skills" class="page">Skills</a>
-            <h5 class="page">Portfolio</h5>
+            <a href="#portfolio" class="page">Portfolio</a>
         </div>
         <svg class="toggle-sandwich" @click="showNav = !showNav" width="39" height="39" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path d="M5 17h8"></path>
@@ -30,7 +30,7 @@ const handleClickOutside = () => {
                 <div class="pages-mob">
                     <a href="#about" class="page">About</a>
                     <a href="#skills" class="page">Skills</a>
-                    <h5 class="page">Portfolio</h5>
+                    <a href="#portfolio" class="page">Portfolio</a>
                 </div>
                 <h6 class="name">© 2022 Emir Zambaković</h6>
             </div>

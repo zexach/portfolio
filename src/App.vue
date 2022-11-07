@@ -2,6 +2,7 @@
 import Navbar from './components/Navbar.vue'
 import HomeView from './views/HomeView.vue';
 import SkillsView from './views/SkillsView.vue';
+import Portfolio from './views/Portfolio.vue';
 import Orizuru from './components/Orizuru.vue';
 import Contact from './views/Contact.vue';
 import Footer from './components/Footer.vue';
@@ -13,6 +14,7 @@ import Footer from './components/Footer.vue';
   <Orizuru style="top: 5rem; right: 0;" />
   <HomeView />
   <SkillsView />
+  <Portfolio />
   <Contact />
   <Footer />
   <!-- <RouterView /> -->

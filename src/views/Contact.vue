@@ -8,7 +8,6 @@ import Button from '../components/Button.vue';
     <div id="contact" class="contact">
         <h1 class="section-title">Contact</h1>
         <ContactForm />
-        <Button buttonText="Send" />
     </div>
 </template>
 
