@@ -10,7 +10,7 @@
                 <div class="pages">
                     <a href="#about" class="page">About</a>
                     <a href="#skills" class="page">Skills</a>
-                    <a href="#skills" class="page">Portfolio</a>
+                    <a href="#portfolio" class="page">Portfolio</a>
                 </div>
             </div>
             <div class="social-media">
