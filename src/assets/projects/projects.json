@@ -1,0 +1,23 @@
+[
+    {
+      "id": "restCountries",
+      "image": "../src/assets/img/orizuru.png",
+      "title": "REST Countries",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "technologies": ["HTML", "CSS", "JS", "Vue3"]
+    },
+    {
+      "id": "rockPaperScissors",
+      "image": "../src/assets/img/orizuru.png",
+      "title": "Rock Paper Scissors",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "technologies": ["HTML", "CSS", "JS", "Vue3"]
+    },
+    {
+      "id": "countdown",
+      "image": "../src/assets/img/orizuru.png",
+      "title": "Countdown",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "technologies": ["HTML", "CSS", "JS", "Vue3"]
+    }
+  ]

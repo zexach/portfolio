@@ -1,34 +1,8 @@
 <script setup>
   import ProjectCard from '../components/ProjectCard.vue';
-  import { ref } from 'vue';
-  import { useRouter } from "vue-router";
+  import useProjects from '../assets/projects/projects.json'
 
-  const router = useRouter()
-
-  const projects = ref([
-    {
-      id: 'restCountries',
-      image: '../src/assets/img/orizuru.png',
-      title: 'REST Countries',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      technologies: ['HTML', 'CSS', 'JS', 'Vue3']
-    },
-    {
-      id: 'rockPaperScissors',
-      image: '../src/assets/img/orizuru.png',
-      title: 'Rock Paper Scissors',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      technologies: ['HTML', 'CSS', 'JS', 'Vue3']
-    },
-    {
-      id: 'passwordGenerator',
-      image: '../src/assets/img/orizuru.png',
-      title: 'Password Generator',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      technologies: ['HTML', 'CSS', 'JS', 'Vue3']
-    }
-  ])
-
+  const projects = useProjects
 
 </script>
 
@@ -36,7 +10,11 @@
   <div id="portfolio" class="portfolio">
     <h1 class="title">Portfolio</h1>
     <div class="portfolio-content">
-      <ProjectCard v-for="project in projects" :project="project" />
+    <template v-for="project in projects">
+      <router-link :to="{name: 'Project', params: {name: project.id}}">
+        <ProjectCard :project="project" />
+      </router-link>
+    </template>
     </div>
   </div>
 </template>

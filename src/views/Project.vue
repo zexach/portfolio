@@ -1,10 +1,17 @@
 <script setup>
+    import { useRoute } from 'vue-router';
+    import useProjects from '../assets/projects/projects.json'
+
+    const route = useRoute()
+    const projects = useProjects
+
+    const project = projects.find((project) => project.id === route.params.name)
 
 </script>
 
 <template>
     <div class="project">
-        <h3 class="title">Project Title</h3>
+        <p>{{project.title}}</p>
     </div>
 </template>
 

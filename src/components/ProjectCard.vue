@@ -48,7 +48,7 @@ defineProps(['project'])
         gap: 1rem;
     }
     .project-technology{
-        width: 3.125rem;
+        min-width: 3.125rem;
         padding: 0.2rem;
         display: flex;
         justify-content: center;
