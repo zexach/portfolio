@@ -8,7 +8,7 @@ defineProps(['project'])
     <div class="project">
         <img :src="project.image" class="project-img">
         <h2 class="project-title">{{project.title}}</h2>
-        <p class="project-description">{{project.desc}}</p>
+        <p class="project-description">{{project.shortDesc}}</p>
         <div class="project-technologies">
             <p v-for="technology in project.technologies" class="project-technology">{{technology}}</p>
         </div>

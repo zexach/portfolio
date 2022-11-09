@@ -60,7 +60,7 @@ const handleClickOutside = () => {
         display: none;
     }
     .title{
-        font-weight: 500;
+        font-weight: 600;
     }
     .pages{
         display: flex;
@@ -71,6 +71,7 @@ const handleClickOutside = () => {
     .page{
         margin: 0 1rem;
         transition: 0.2s;
+        font-weight: 500;
     }
     .page:hover{
         scale: 1.095;

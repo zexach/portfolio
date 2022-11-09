@@ -12,7 +12,7 @@
 <style scoped>
     .project-info{
         width: 25rem;
-        padding: 1rem 2rem;
+        padding: 2rem 2rem;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -30,6 +30,10 @@
     }
     a{
         color: #fff;
-        font-weight: 400;
+    }
+    @media screen and (max-width: 600px) {
+        .project-info{
+            width: 100%;
+        }
     }
 </style>
