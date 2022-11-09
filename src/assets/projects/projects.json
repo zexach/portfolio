@@ -1,23 +1,29 @@
 [
     {
       "id": "restCountries",
-      "image": "../src/assets/img/orizuru.png",
+      "image": "../src/assets/projects/img/restCountries.png",
       "title": "REST Countries",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": ["HTML", "CSS", "JS", "Vue3"]
+      "technologies": ["HTML", "CSS", "JS", "Vue3"],
+      "github": "https://github.com/zexach/rest-countries",
+      "demo": "https://learn-countries.netlify.app/"
     },
     {
       "id": "rockPaperScissors",
       "image": "../src/assets/img/orizuru.png",
       "title": "Rock Paper Scissors",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": ["HTML", "CSS", "JS", "Vue3"]
+      "technologies": ["HTML", "CSS", "JS", "Vue3"],
+      "github": "...",
+      "demo": "..."
     },
     {
       "id": "countdown",
       "image": "../src/assets/img/orizuru.png",
       "title": "Countdown",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": ["HTML", "CSS", "JS", "Vue3"]
+      "technologies": ["HTML", "CSS", "JS", "Vue3"],
+      "github": "...",
+      "demo": "..."
     }
   ]

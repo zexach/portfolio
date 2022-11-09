@@ -29,15 +29,23 @@ defineProps(['project'])
         box-shadow: 1px 1px 11px 2px rgba(2,50,148,0.12);
         color: #02a9db;
         cursor: pointer;
+        transition: 0.3s;
+    }
+    .project:hover{
+        scale: 1.02;
     }
     .project-img{
         width: 20rem;
+        height: 13rem;
         border-radius: .425rem .425rem 0 0;
+        object-fit: cover;
+        filter: brightness(90%);
     }
     .project-title{
         font-weight: 600;
     }
     .project-description{
+        color: #fff;
         font-size: 0.875rem;
     }
     .project-technologies{

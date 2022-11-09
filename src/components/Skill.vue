@@ -42,6 +42,7 @@
         cursor: pointer;
     }
     .skill-title{
+        color: #fff;
         font-weight: 600;
     }
     .skill-content:hover{
