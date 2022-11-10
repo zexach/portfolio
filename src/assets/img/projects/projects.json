@@ -1,7 +1,7 @@
 [
     {
       "id": "restCountries",
-      "image": "./assets/projects/img/restCountries.png",
+      "image": "../src/assets/img/projects/img/restCountries.png",
       "title": "REST Countries",
       "shortDesc": "REST Countries gives you info about countries all around the globe. Explore every continent and meet countries you didn't even know exist",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -11,7 +11,7 @@
     },
     {
       "id": "rockPaperScissors",
-      "image": "./assets/img/orizuru.png",
+      "image": "../src/assets/img/orizuru.png",
       "title": "Rock Paper Scissors",
       "shortDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -21,7 +21,7 @@
     },
     {
       "id": "countdown",
-      "image": "./assets/img/orizuru.png",
+      "image": "../src/assets/img/orizuru.png",
       "title": "Countdown",
       "shortDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",

@@ -1,6 +1,6 @@
 <script setup>
   import ProjectCard from '../components/ProjectCard.vue';
-  import useProjects from '../assets/projects/projects.json'
+  import useProjects from '../assets/img/projects/projects.json'
 
   const projects = useProjects
 

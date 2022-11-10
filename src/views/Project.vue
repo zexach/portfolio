@@ -4,7 +4,7 @@
     import ProjectDescription from '../components/ProjectDescription.vue';
     import ProjectTechnologies from '../components/ProjectTechnologies.vue';
     import { useRoute } from 'vue-router';
-    import useProjects from '../assets/projects/projects.json'
+    import useProjects from '../assets/img/projects/projects.json'
 
     const route = useRoute()
     const projects = useProjects
