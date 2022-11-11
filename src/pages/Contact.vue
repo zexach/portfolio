@@ -15,7 +15,7 @@ import Button from '../components/Button.vue';
     .contact{
         width: 100%;
         min-height: 15rem;
-        padding: 3rem 0;
+        padding: 5rem 0 3rem 0;
         display: flex;
         flex-direction: column;
         justify-content: center;

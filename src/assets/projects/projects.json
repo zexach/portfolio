@@ -1,7 +1,7 @@
 [
     {
       "id": "restCountries",
-      "image": "../src/assets/img/projects/img/restCountries.png",
+      "image": "../src/assets/projects/img/restCountries.png",
       "title": "REST Countries",
       "shortDesc": "REST Countries gives you info about countries all around the globe. Explore every continent and meet countries you didn't even know exist",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -12,7 +12,7 @@
     {
       "id": "rockPaperScissors",
       "image": "../src/assets/img/orizuru.png",
-      "title": "Rock Paper Scissors",
+      "title": "E-commerce",
       "shortDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": ["HTML", "CSS", "JS", "Vue3"],
