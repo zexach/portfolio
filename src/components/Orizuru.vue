@@ -10,7 +10,8 @@
     position: absolute;
     opacity: 0.9;
   }
-  @media screen and (max-width: 600px) {
+
+  @media screen and (max-width: 975px) {
     img{
       display: none;
     }

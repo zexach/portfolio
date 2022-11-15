@@ -5,7 +5,7 @@ import SkillsView from '../pages/SkillsView.vue';
 import Portfolio from '../pages/Portfolio.vue';
 import Orizuru from '../components/Orizuru.vue';
 import Contact from '../pages/Contact.vue';
-import Footer from '../components/Footer.vue';
+import FooterVue from '../components/Footer.vue';
 
 </script>
 
@@ -16,7 +16,7 @@ import Footer from '../components/Footer.vue';
   <SkillsView />
   <Portfolio />
   <Contact />
-  <Footer />
+  <FooterVue />
 </template>
 
 <style scoped>

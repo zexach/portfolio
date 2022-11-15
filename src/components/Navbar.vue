@@ -20,21 +20,23 @@ const handleClickOutside = () => {
             <a href="#skills" class="page">Skills</a>
             <a href="#portfolio" class="page">Portfolio</a>
         </div>
-        <svg class="toggle-sandwich" @click="showNav = !showNav" width="39" height="39" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path d="M5 17h8"></path>
-            <path d="M5 12h14"></path>
-            <path d="M5 7h8"></path>
-        </svg>
-        <Transition name="slide">
-            <div v-click-outside="handleClickOutside" @click="showNav = false" class="mobile-menu" v-if="showNav">
-                <div class="pages-mob">
-                    <a href="#about" class="page">About</a>
-                    <a href="#skills" class="page">Skills</a>
-                    <a href="#portfolio" class="page">Portfolio</a>
+        <div v-click-outside="handleClickOutside" class="sandwich">
+            <svg class="toggle-sandwich" @click="showNav = !showNav" width="39" height="39" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5 17h8"></path>
+                <path d="M5 12h14"></path>
+                <path d="M5 7h8"></path>
+            </svg>
+            <Transition name="slide">
+                <div class="mobile-menu" v-if="showNav">
+                    <div class="pages-mob">
+                        <a @click="showNav = false"  href="#about" class="page">About</a>
+                        <a @click="showNav = false"  href="#skills" class="page">Skills</a>
+                        <a @click="showNav = false"  href="#portfolio" class="page">Portfolio</a>
+                    </div>
+                    <h6 class="name">© 2022 Emir Zambaković</h6>
                 </div>
-                <h6 class="name">© 2022 Emir Zambaković</h6>
-            </div>
-        </Transition>
+            </Transition>
+        </div>
     </div>
 </template>
 
@@ -75,6 +77,9 @@ const handleClickOutside = () => {
     }
     .page:hover{
         scale: 1.095;
+    }
+    .sandwich{
+        display: none;
     }
     h3{
         font-size: 1.5rem;
@@ -125,9 +130,12 @@ const handleClickOutside = () => {
             color: #0f0f0f;
             box-shadow: 0px 5px 29px -6px rgba(0, 197, 241, 0.441);
             position: absolute;
-            top: 4.5rem;
-            right: 0;
+            top: 3.5rem;
+            right: -1.5rem;
             z-index: 2;
+        }
+        .sandwich{
+            display: block;
         }
         .name{
             padding: 0 1.5rem;

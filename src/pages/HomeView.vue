@@ -57,7 +57,7 @@ import Button from '../components/Button.vue'
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    gap: 3rem;
+    gap: 1rem;
   }
 
   @media screen and (min-width: 601px) and (max-width: 1024px){
