@@ -6,8 +6,11 @@ defineProps(['project'])
 
 <template>
     <div class="project">
-        <img :src="project.image" class="project-img">
-        <h2 class="project-title">{{project.title}}</h2>
+        <img :src="project.thumbnail" class="project-img">
+        <div class="project-title">
+            <h2 class="project-header">{{project.title}}</h2>
+            <p class="project-wip" v-if="project.workInProgress == 1">WIP</p>
+        </div>
         <p class="project-description">{{project.shortDesc}}</p>
         <div class="project-technologies">
             <p v-for="technology in project.technologies" class="project-technology">{{technology}}</p>
@@ -42,6 +45,12 @@ defineProps(['project'])
         filter: brightness(90%);
     }
     .project-title{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    .project-header{
         font-weight: 600;
     }
     .project-description{
@@ -55,9 +64,10 @@ defineProps(['project'])
         flex-wrap: wrap;
         gap: 1rem;
     }
+    .project-wip,
     .project-technology{
         min-width: 3.125rem;
-        padding: 0.2rem;
+        padding: 0.2rem 0.4rem;
         display: flex;
         justify-content: center;
         border-radius: 0.3rem;

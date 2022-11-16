@@ -21,6 +21,7 @@
             <p>Back to portfolio</p>
         </div>
         <div class="project-name">
+            <p class="project-wip" v-if="project.workInProgress == 1">Work in progress</p>
             <h3 class="project-title">{{project.title}}</h3>
             <p class="project-short-description">{{project.shortDesc}}</p>
         </div>
@@ -38,6 +39,7 @@
         width: 100%;
         height: 23rem;
         object-fit: cover;
+        object-position: 100% 98%;
         filter: brightness(40%);
     }
     .back-option{
@@ -62,6 +64,18 @@
     .project-title{
         font-size: 3rem;
         font-weight: 700;
+    }
+    .project-wip{
+        min-width: 3.125rem;
+        padding: 0.2rem 0.4rem;
+        display: flex;
+        justify-content: center;
+        border-radius: 0.3rem;
+        background-color: #02a9db;
+        box-shadow: 1px 1px 11px 2px rgba(0, 5, 14, 0.32);
+        color: #1b1a1a;
+        font-size: 0.75rem;
+        font-weight: 600;
     }
     @media screen and (max-width: 1024px) {
         .project-name{

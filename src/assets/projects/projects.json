@@ -1,32 +1,41 @@
 [
     {
       "id": "restCountries",
+      "thumbnail": "https://i.imgur.com/kZjHDu7l.png",
       "image": "https://i.imgur.com/kZjHDu7.png",
       "title": "REST Countries",
-      "shortDesc": "REST Countries gives you info about countries all around the globe. Explore every continent and meet countries you didn't even know exist",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": ["HTML", "CSS", "JS", "Vue3"],
+      "shortDesc": "REST Countries gives you info about countries all around the globe. Explore every continent and meet countries you didn't even know existed",
+      "desc": "REST Countries is one of the very first projects I've done using Vue3. REST Countries API was used to pull country info and display it to end-user. User is able to see all countries from the API on homepage, search for specific country by using input field, filter countries by region, see more details about every country by clicking on it.",
+      "technologies": ["JS", "Vue3", "CSS"],
+      "workInProgress": "0",
       "github": "https://github.com/zexach/rest-countries",
-      "demo": "https://learn-countries.netlify.app/"
+      "demo": "https://learn-countries.netlify.app/",
+      "figma": ""
+    },
+    {
+      "id": "travelPal",
+      "thumbnail": "https://i.imgur.com/jE99Iirl.png",
+      "image": "https://i.imgur.com/jE99Iir.png",
+      "title": "TravelPal",
+      "shortDesc": "You love to travel? TravelPal is way to go then. TravelPal is the place where you can find your new pal to travel with or host for your next vacation",
+      "desc": "TravelPal is my college project, which is still in progress, where I need to create and design a concept for a web app. After that, I have to create full-stack app that I previously designed. Currently, I completed desktop version design and few pages for mobile version. Generally, TravelPal is application for travel community. TravelPal helps user to meet new people by traveling together. User can find host for his next travel too. TravelPal contains feed also, where users can share their experience from vacation. ",
+      "technologies": ["JS", "Vue3", "SCSS", "NodeJS"],
+      "workInProgress": "1",
+      "github": "https://github.com/zexach",
+      "demo": "...",
+      "figma": "https://figma.com/file/PeGvVj1nuS82KMBfZYiyys"
     },
     {
       "id": "rockPaperScissors",
-      "image": "https://i.imgur.com/lefq9mO.png",
-      "title": "E-commerce",
-      "shortDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": ["HTML", "CSS", "JS", "Vue3"],
-      "github": "...",
-      "demo": "..."
-    },
-    {
-      "id": "countdown",
+      "thumbnail": "https://i.imgur.com/lefq9mO.png",
       "image": "https://i.imgur.com/lefq9mO.png",
       "title": "Countdown",
       "shortDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": ["HTML", "CSS", "JS", "Vue3"],
+      "workInProgress": "0",
       "github": "...",
-      "demo": "..."
+      "demo": "...",
+      "figma": ""
     }
   ]

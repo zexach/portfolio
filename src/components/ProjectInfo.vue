@@ -29,6 +29,8 @@
         font-weight: 600;
     }
     a{
+        line-break: anywhere;
+        text-align: center;
         color: #fff;
     }
     @media screen and (max-width: 600px) {

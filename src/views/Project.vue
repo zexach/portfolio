@@ -19,7 +19,7 @@
         <div class="project-content">
             <div class="project-info">
                 <ProjectInfo title="Github" :link="project.github" />
-                <ProjectInfo title="Demo" :link="project.demo" />
+                <ProjectInfo :title="project.workInProgress == 1 ? 'Figma' : 'Demo' " :link="project.workInProgress == 1 ? project.figma : project.demo" />
             </div>
             <ProjectDescription :project="project" />
             <ProjectTechnologies :project="project" />
@@ -33,7 +33,7 @@
         min-height: 100vh;
     }
     .project-content{
-        padding: 2rem;
+        padding: 1.5rem;
         display: flex;
         flex-direction: row;
         align-items: center;

@@ -11,7 +11,7 @@
 
 <style scoped>
     .project-description{
-        height: 19.610rem;
+        min-height: 21.11rem;
         padding: 2rem 2rem;
         display: flex;
         flex-direction: column;

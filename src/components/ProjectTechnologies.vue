@@ -12,7 +12,7 @@
 <style scoped>
     .project-technologies{
         width: 17rem;
-        height: 19.610rem;
+        height: 21.11rem;
         padding: 2rem 2rem;
         display: flex;
         flex-direction: column;
