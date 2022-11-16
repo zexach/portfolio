@@ -27,15 +27,15 @@
     },
     {
       "id": "rockPaperScissors",
-      "thumbnail": "https://i.imgur.com/lefq9mO.png",
-      "image": "https://i.imgur.com/lefq9mO.png",
-      "title": "Countdown",
-      "shortDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": ["HTML", "CSS", "JS", "Vue3"],
+      "thumbnail": "https://i.imgur.com/l8R3mcJh.png",
+      "image": "https://i.imgur.com/l8R3mcJ.png",
+      "title": "Rock Paper Scissors",
+      "shortDesc": "Rock Paper Scissors is a game played to settle disputes between two people. Thought to be a game of chance that depends on random luck similar to flipping coins",
+      "desc": "Rock paper scissors is a simple game I created using Vue3. Users can test their luck by playing game against computer. Users are able to view optimal layout for the game on their device's screen size. Their score is counted after every played round.",
+      "technologies": ["JS", "Vue3", "CSS"],
       "workInProgress": "0",
-      "github": "...",
-      "demo": "...",
+      "github": "https://github.com/zexach/rock-paper-scissors",
+      "demo": "https://fliflajflus.netlify.app/",
       "figma": ""
     }
   ]
