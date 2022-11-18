@@ -78,6 +78,9 @@
         font-weight: 600;
     }
     @media screen and (max-width: 1024px) {
+        .project-image{
+            object-position: 50% 100%;
+        }
         .project-name{
             padding: 0 1.5rem;
         }

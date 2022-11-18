@@ -1,6 +1,5 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import { ref } from 'vue';
+import { ref } from 'vue'
 
 const showNav = ref(false)
 
