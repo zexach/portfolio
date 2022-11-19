@@ -12,7 +12,7 @@ import Button from '../components/Button.vue'
       <div class="home-content">
         <About />
         <div class="home-buttons">
-          <a href="https://drive.google.com/uc?export=download&id=19iFYiJx6NDXld89VNM98m81QdwGaSU8H" download="EmirZambakovic.pdf">
+          <a href="https://drive.google.com/uc?export=download&id=1gXevwD-MLpwAQqQAeqL5d7RFJIsFDSDa" download="EmirZambakovic.pdf">
             <Button buttonText="Download CV" />
           </a>
           <a href="#contact">
