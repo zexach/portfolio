@@ -4,7 +4,7 @@
 
 <template>
     <div class="image">
-        <img src="../assets/img/1664210835408.jpg" alt="">
+        <img src="../assets/img/1664210835408.webp" width="416" alt="emir">
     </div>
 </template>
 
@@ -14,7 +14,6 @@
         justify-content: center;
     }
     img{
-        width: 26rem;
         border: 0.583rem solid #02a9db;
         box-shadow: 1px 1px 11px 2px rgba(12, 12, 12, 0.35);
         border-radius: 12rem;

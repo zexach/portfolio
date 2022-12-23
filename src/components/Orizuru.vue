@@ -1,10 +1,9 @@
 <template>
-    <img src="../assets/img/orizuru.png" alt="">
+    <img src="../assets/img/orizuru.webp" alt="orizuru" width="260">
 </template>
 
 <style scoped>
     img{
-    width: 260px;
     order: 4;
     z-index: 0;
     position: absolute;

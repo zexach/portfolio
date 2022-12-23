@@ -6,7 +6,7 @@ defineProps(['project'])
 
 <template>
     <div class="project">
-        <img :src="project.thumbnail" class="project-img">
+        <img :src="project.thumbnail" alt="text" class="project-img">
         <div class="project-title">
             <h2 class="project-header">{{project.title}}</h2>
             <p class="project-wip" v-if="project.workInProgress == 1">WIP</p>

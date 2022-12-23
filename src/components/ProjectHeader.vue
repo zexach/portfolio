@@ -11,7 +11,7 @@
 
 <template>
     <div class="image-title">
-        <img :src="project.image" class="project-image">
+        <img :src="project.image" class="project-image" alt="text">
         <div @click="goBack" class="back-option">
             <svg width="40" height="40" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path d="M5 12h14"></path>
