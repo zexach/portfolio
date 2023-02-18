@@ -20,5 +20,8 @@ import FooterVue from '../components/Footer.vue';
 </template>
 
 <style scoped>
-
+  button{
+    color: black;
+    border: 0.125rem solid red;
+  }
 </style>

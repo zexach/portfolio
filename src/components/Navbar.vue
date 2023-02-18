@@ -1,4 +1,5 @@
 <script setup>
+import Orizuru from '../components/Orizuru.vue';
 import { ref } from 'vue'
 
 const showNav = ref(false)
@@ -13,7 +14,10 @@ const handleClickOutside = () => {
 
 <template>
     <div class="navbar">
-        <h3 class="title">Emir Zambaković</h3>
+        <div class="navbar-title">
+            <Orizuru style="width: 3rem; position: unset;" />
+            <h3 class="title">Emir<span class="title surname">Zambaković</span></h3>
+        </div>
         <div class="pages">
             <a href="#about" class="page">About</a>
             <a href="#skills" class="page">Skills</a>
@@ -54,6 +58,11 @@ const handleClickOutside = () => {
         top: 0;
         z-index: 3;
     }
+    .navbar-title{
+        display:flex;
+        flex-direction:row-reverse;
+        gap: 1rem;
+    }
     .toggle-sandwich{
         display: none;
     }
@@ -62,6 +71,10 @@ const handleClickOutside = () => {
     }
     .title{
         font-weight: 600;
+        color: #fff;
+    }
+    .surname{
+        color: #02a9db;
     }
     .pages{
         display: flex;

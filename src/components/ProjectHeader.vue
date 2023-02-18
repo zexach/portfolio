@@ -39,7 +39,7 @@
         width: 100%;
         height: 23rem;
         object-fit: cover;
-        object-position: 100% 90%;
+        object-position: 100% 80%;
         filter: brightness(40%);
     }
     .back-option{
