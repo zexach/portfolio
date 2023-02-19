@@ -1,9 +1,18 @@
+<script setup>
+import { ref } from 'vue'
+
+const date = ref(new Date());
+
+const year = ref(date.value.getFullYear());
+
+</script>
+
 <template>
     <div class="footer">
         <div class="footer-content">
             <div class="content">
                 <h1 class="name">Emir Zambaković</h1>
-                <p style="color:#015670">©️ 2022 Emir Zambaković</p>
+                <p style="color:#015670">©️ {{ year }} Emir Zambaković</p>
             </div>
             <div class="pages-content">
                 <h2 class="name">Pages</h2>
