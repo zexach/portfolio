@@ -6,7 +6,6 @@ import vClickOutside from "click-outside-vue3"
 import Toast from "vue-toastification";
 import "vue-toastification/dist/index.css";
 
-
 const app = createApp(App)
 
 app.use(router)
