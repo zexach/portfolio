@@ -46,6 +46,6 @@
         font-weight: 600;
     }
     .skill-content:hover{
-        transform: scale(1.12)
+        box-shadow: 0px 0px 25px 2px rgba(2,50,148,0.52);
     }
 </style>

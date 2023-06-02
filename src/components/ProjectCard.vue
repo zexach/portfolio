@@ -32,10 +32,10 @@ defineProps(['project'])
         box-shadow: 1px 1px 11px 2px rgba(2,50,148,0.12);
         color: #02a9db;
         cursor: pointer;
-        transition: 0.3s;
+        transition: 0.33s;
     }
     .project:hover{
-        scale: 1.02;
+        box-shadow: 0px 0px 25px 2px rgba(2,50,148,0.52);
     }
     .project-img{
         width: 20rem;
