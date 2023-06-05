@@ -1,4 +1,30 @@
 [
+  {
+    "id": "prayerTimes",
+    "thumbnail": "https://i.imgur.com/QpWiAGE.png",
+    "image": "https://i.imgur.com/QpWiAGE.png",
+    "title": "Prayer Times",
+    "shortDesc": "Prayer Times app provides accurate prayer schedules and reminders to help Muslims effectively manage their daily prayers.",
+    "desc": "Prayer Times app, built with React, offers precise prayer schedules for cities in Bosnia and Herzegovina, utilizing data from the official API of the Islamic Community of Bosnia and Herzegovina (Rijaset Islamske zajednice u Bosni i Hercegovini). User is able to browse prayer times for every city in Bosnia and Herzegovina",
+    "technologies": ["JS", "React", "CSS"],
+    "workInProgress": "0",
+    "github": "https://github.com/zexach/prayer-times",
+    "demo": "https://ez-prayer-times.netlify.app/",
+    "figma": ""
+  },
+  {
+    "id": "toDoList",
+    "thumbnail": "https://i.imgur.com/Fq9WL39.png",
+    "image": "https://i.imgur.com/Fq9WL39.png",
+    "title": "Todo List",
+    "shortDesc": "Todo list is a simple and intuitive task management tool that helps users efficiently organize and track their daily tasks and activities.",
+    "desc": "The Todo List is my very first project utilizing the React library. It is a CRUD application developed with React, Spring Boot, and MySQL database, enabling users to create new tasks, edit existing ones, and delete any task from the list. REMINDER: Live Demo doesn't save data because the database is not deployed",
+    "technologies": ["JS", "React", "Spring Boot"],
+    "workInProgress": "0",
+    "github": "https://github.com/zexach/todo-list",
+    "demo": "https://ez-todo-list.netlify.app/",
+    "figma": ""
+  },
     {
       "id": "restCountries",
       "thumbnail": "https://i.imgur.com/kZjHDu7l.png",
