@@ -45,7 +45,7 @@
       "title": "TravelPal",
       "shortDesc": "You love to travel? TravelPal is way to go then. TravelPal is the place where you can find your new pal to travel with or host for your next vacation",
       "desc": "TravelPal is my college project, which is still in progress, where I need to create and design a concept for a web app. After that, I have to create full-stack app that I previously designed. Currently, I completed desktop version design and few pages for mobile version. Generally, TravelPal is application for travel community. TravelPal helps user to meet new people by traveling together. User can find host for his next travel too. TravelPal contains feed also, where users can share their experience from vacation. ",
-      "technologies": ["Vue.js", "SCSS", "Spring Boot"],
+      "technologies": ["React", "SCSS", "Spring Boot"],
       "workInProgress": "1",
       "github": "https://github.com/zexach",
       "demo": "...",
