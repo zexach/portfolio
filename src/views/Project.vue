@@ -5,6 +5,11 @@
     import ProjectTechnologies from '../components/ProjectTechnologies.vue';
     import { useRoute } from 'vue-router';
     import useProjects from '../assets/projects/projects.json'
+    import { onMounted } from 'vue';
+
+    onMounted(async () => {
+        window.scrollTo(0, 0);
+    })
 
     const route = useRoute()
     const projects = useProjects

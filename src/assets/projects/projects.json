@@ -1,11 +1,11 @@
 [
   {
     "id": "musicApp",
-    "thumbnail": "https://i.imgur.com/1QRelPY.png",
-    "image": "https://i.imgur.com/1QRelPY.png",
+    "thumbnail": "https://i.imgur.com/GgBmrZl.png",
+    "image": "https://i.imgur.com/GgBmrZl.png",
     "title": "Star Tunes",
     "shortDesc": "A music streaming application allows users to access a vast library of music content and favorite songs online, without the need to download or own music files.",
-    "desc": "Star Tunes streaming application, built using React with SCSS, utilizes the Spotify API to fetch music data. The application incorporates Spotify authorization, allowing users to securely authenticate and access their Spotify accounts. Users can explore music, play songs, discover new albums, and create their own playlists, leveraging the features provided by the Spotify platform.",
+    "desc": "Star Tunes streaming application, built using React with SCSS, utilizes the Spotify API to fetch music data. The application incorporates Spotify authorization, allowing users to securely authenticate and access their Spotify accounts. Users can explore music, play songs, discover new albums, and create their own playlists, leveraging the features provided by the Spotify platform. A Spotify Premium account is required to access certain features, such as playing songs.",
     "technologies": ["JS", "React", "SCSS"],
     "workInProgress": "1",
     "github": "https://github.com/zexach/music-player",
