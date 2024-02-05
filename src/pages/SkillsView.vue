@@ -47,4 +47,10 @@
     gap: 2rem;
     z-index: 1;
   }
+  @media screen and (max-width: 1024px) {
+    .skills-item{
+      display: grid;
+      grid-template-columns: auto auto;
+    }  
+  }
 </style>

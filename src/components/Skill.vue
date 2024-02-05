@@ -48,4 +48,15 @@
     .skill-content:hover{
         box-shadow: 0px 0px 25px 2px rgba(2,50,148,0.52);
     }
+    @media screen and (max-width: 1024px) {
+        .skill{
+            width: fit-content;
+            height: fit-content;
+        }
+        .skill-content{
+            width: fit-content;
+            height: fit-content;
+            background-color: transparent;
+        }
+    }
 </style>

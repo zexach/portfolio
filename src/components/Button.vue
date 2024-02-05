@@ -25,6 +25,8 @@ defineProps(['buttonText'])
         box-shadow: 1px 1px 11px 2px rgba(2,50,148,0.15);
         color: #02a9db;
         font-size: 1rem;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
         transition: 0.3s;
     }
     button:hover{

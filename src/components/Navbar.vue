@@ -15,8 +15,7 @@ const handleClickOutside = () => {
 <template>
     <div class="navbar">
         <div class="navbar-title">
-            <Orizuru style="width: 3rem; position: unset;" />
-            <h3 class="title">Emir<span class="title surname">Zambaković</span></h3>
+            <h3 class="title">emir<span class="title surname">zambakovic</span></h3>
         </div>
         <div class="pages">
             <a href="#about" class="page">About</a>
