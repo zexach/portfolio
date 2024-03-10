@@ -1,5 +1,4 @@
 <script setup>
-import Orizuru from '../components/Orizuru.vue';
 import { ref } from 'vue'
 
 const showNav = ref(false)
@@ -9,6 +8,10 @@ const handleClickOutside = () => {
         showNav.value = false
     }
 }
+
+const date = ref(new Date());
+const year = ref(date.value.getFullYear());
+
 
 </script>
 
@@ -28,24 +31,25 @@ const handleClickOutside = () => {
                 <path d="M5 12h14"></path>
                 <path d="M5 7h8"></path>
             </svg>
-            <Transition name="slide">
-                <div class="mobile-menu" v-if="showNav">
-                    <div class="pages-mob">
-                        <a @click="showNav = false"  href="#about" class="page">About</a>
-                        <a @click="showNav = false"  href="#skills" class="page">Skills</a>
-                        <a @click="showNav = false"  href="#portfolio" class="page">Portfolio</a>
-                    </div>
-                    <h6 class="name">© 2022 Emir Zambaković</h6>
-                </div>
-            </Transition>
         </div>
+        <Transition name="slide">
+            <div class="mobile-menu" v-if="showNav">
+                <div class="pages-mob">
+                    <a @click="showNav = false"  href="#about" class="page">About</a>
+                    <a @click="showNav = false"  href="#skills" class="page">Skills</a>
+                    <a @click="showNav = false"  href="#portfolio" class="page">Portfolio</a>
+                </div>
+                <h6 class="name">© {{ year }} Emir Zambaković</h6>
+            </div>
+        </Transition>
     </div>
 </template>
 
 <style scoped>
     .navbar{
         width: 100%;
-        padding: 1rem 7rem;
+        height: 5rem;
+        padding: 0 7rem;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -118,9 +122,13 @@ const handleClickOutside = () => {
         .pages-mob{
             display: flex;
             flex-direction: column;
+            align-items: center;
             gap: 2rem;
         }
         .page{
+            width: 10rem;
+            display: flex;
+            justify-content: center;
             color: #0f0f0f;
             font-size: 1.125rem;
             font-weight: 500;
@@ -130,8 +138,8 @@ const handleClickOutside = () => {
             font-size: 1.125rem;
         }
         .mobile-menu{
-            width: 13.25rem;
-            height: 25rem;
+            width: 100%;
+            height: 100vh;
             padding: 1.5rem 0;
             margin: 0;
             display: flex;
@@ -141,8 +149,8 @@ const handleClickOutside = () => {
             color: #0f0f0f;
             box-shadow: 0px 5px 29px -6px rgba(0, 197, 241, 0.441);
             position: absolute;
-            top: 3.5rem;
-            right: -1.5rem;
+            top: 5rem;
+            left: 0;
             z-index: 2;
         }
         .sandwich{

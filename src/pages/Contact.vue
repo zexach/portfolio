@@ -1,6 +1,5 @@
 <script setup>
 import ContactForm from '../components/ContactForm.vue';
-import Button from '../components/Button.vue';
 
 </script>
 

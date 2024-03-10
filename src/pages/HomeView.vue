@@ -12,7 +12,7 @@ import Button from '../components/Button.vue'
       <div class="home-content">
         <About />
         <div class="home-buttons">
-          <a href="https://drive.google.com/uc?export=download&id=1y7ObIgSg6MDX_dt3Gd561yrCdbjsj7IY" download="EmirZambakovic.pdf">
+          <a href="https://drive.google.com/uc?export=download&id=16DH4-HfOR4w4Pyksj-drKdTXohZWOlG8" download="EmirZambakovic.pdf">
             <Button buttonText="Download CV" />
           </a>
           <a href="#contact">
@@ -27,7 +27,7 @@ import Button from '../components/Button.vue'
 <style scoped>
   .home{
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 10vh);
     display: flex;
     justify-content: center;
     align-items: center;

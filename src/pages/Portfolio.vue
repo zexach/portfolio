@@ -23,7 +23,7 @@
   .portfolio{
     width: 100%;
     min-height: 100vh;
-    padding: 1.5rem;
+    padding: 1.5rem 1.5rem 5rem 1.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
