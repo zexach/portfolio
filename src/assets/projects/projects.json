@@ -27,8 +27,8 @@
   },
   {
     "id": "toDoList",
-    "thumbnail": "https://i.imgur.com/Fq9WL39.png",
-    "image": "https://i.imgur.com/Fq9WL39.png",
+    "thumbnail": "https://i.imgur.com/6zk5OdA.png",
+    "image": "https://i.imgur.com/6zk5OdA.png",
     "title": "Todo List",
     "shortDesc": "Todo list is a simple and intuitive task management tool that helps users efficiently organize and track their daily tasks and activities.",
     "desc": "The Todo List is my very first project utilizing the React library. It is a CRUD application developed with React, Spring Boot, and MySQL database, enabling users to create new tasks, edit existing ones, and delete any task from the list. REMINDER: Live Demo doesn't save data because the database is not deployed",
