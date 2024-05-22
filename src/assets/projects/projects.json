@@ -1,19 +1,19 @@
 [
   {
-    "id": "musicApp",
-    "thumbnail": "https://i.imgur.com/GgBmrZl.png",
-    "image": "https://i.imgur.com/GgBmrZl.png",
-    "title": "Star Tunes",
-    "shortDesc": "A music streaming application allows users to access a vast library of music content and favorite songs online, without the need to download or own music files.",
-    "desc": "Star Tunes streaming application, built using React with SCSS, utilizes the Spotify API to fetch music data. The application incorporates Spotify authorization, allowing users to securely authenticate and access their Spotify accounts. Users can explore music, play songs, discover new albums, and create their own playlists, leveraging the features provided by the Spotify platform. A Spotify Premium account is required to access certain features, such as playing songs.",
-    "technologies": ["JS", "React", "SCSS"],
-    "workInProgress": "1",
-    "github": "https://github.com/zexach/music-player",
-    "demo": "...",
+    "id": "ez-tmdb",
+    "thumbnail": "https://i.imgur.com/rx7VVyU.png",
+    "image": "https://i.imgur.com/rx7VVyU.png",
+    "title": "The Movie Databse",
+    "shortDesc": "Application showcases the top-rated movies and TV shows, offering users an intuitive platform to discover and explore popular titles.",
+    "desc": "application, built with TypeScript and React, allows users to discover and explore top-rated movies and TV shows using the TMDB API. It features a curated list of popular titles, a search function to find any movie or TV show, and detailed views with ratings, reviews, and summaries. Styled with SCSS for a sleek design, the application is responsive and works seamlessly across all devices.",
+    "technologies": ["Typescript", "React", "SCSS"],
+    "workInProgress": "0",
+    "github": "https://github.com/zexach/the-movie-db",
+    "demo": "https://ez-tmdb.netlify.app/",
     "figma": ""
   },
   {
-    "id": "prayerTimes",
+    "id": "prayer-times",
     "thumbnail": "https://i.imgur.com/QpWiAGE.png",
     "image": "https://i.imgur.com/QpWiAGE.png",
     "title": "Prayer Times",
@@ -26,7 +26,20 @@
     "figma": ""
   },
   {
-    "id": "toDoList",
+    "id": "star-tunes",
+    "thumbnail": "https://i.imgur.com/GgBmrZl.png",
+    "image": "https://i.imgur.com/GgBmrZl.png",
+    "title": "Star Tunes",
+    "shortDesc": "A music streaming application allows users to access a vast library of music content and favorite songs online, without the need to download or own music files.",
+    "desc": "Star Tunes streaming application, built using React with SCSS, utilizes the Spotify API to fetch music data. The application incorporates Spotify authorization, allowing users to securely authenticate and access their Spotify accounts. Users can explore music, play songs, discover new albums, and create their own playlists, leveraging the features provided by the Spotify platform. A Spotify Premium account is required to access certain features, such as playing songs.",
+    "technologies": ["JS", "React", "SCSS"],
+    "workInProgress": "1",
+    "github": "https://github.com/zexach/music-player",
+    "demo": "...",
+    "figma": ""
+  },
+  {
+    "id": "to-do-list",
     "thumbnail": "https://i.imgur.com/6zk5OdA.png",
     "image": "https://i.imgur.com/6zk5OdA.png",
     "title": "Todo List",
@@ -38,56 +51,56 @@
     "demo": "https://ez-todo-list.netlify.app/",
     "figma": ""
   },
-    {
-      "id": "restCountries",
-      "thumbnail": "https://i.imgur.com/kZjHDu7l.png",
-      "image": "https://i.imgur.com/kZjHDu7.png",
-      "title": "REST Countries",
-      "shortDesc": "REST Countries gives you info about countries all around the globe. Explore every continent and meet countries you didn't even know existed",
-      "desc": "REST Countries is one of the very first projects I've done using Vue3. REST Countries API was used to pull country info and display it to end-user. User is able to see all countries from the API on homepage, search for specific country by using input field, filter countries by region, see more details about every country by clicking on it.",
-      "technologies": ["JS", "Vue.js", "CSS"],
-      "workInProgress": "0",
-      "github": "https://github.com/zexach/rest-countries",
-      "demo": "https://learn-countries.netlify.app/",
-      "figma": ""
-    },
-    {
-      "id": "travelPal",
-      "thumbnail": "https://i.imgur.com/jE99Iirl.png",
-      "image": "https://i.imgur.com/jE99Iir.png",
-      "title": "TravelPal",
-      "shortDesc": "You love to travel? TravelPal is way to go then. TravelPal is the place where you can find your new pal to travel with or host for your next vacation",
-      "desc": "TravelPal is my college project, which is still in progress, where I need to create and design a concept for a web app. After that, I have to create full-stack app that I previously designed. Currently, I completed desktop version design and few pages for mobile version. Generally, TravelPal is application for travel community. TravelPal helps user to meet new people by traveling together. User can find host for his next travel too. TravelPal contains feed also, where users can share their experience from vacation. ",
-      "technologies": ["React", "SCSS", "Spring Boot"],
-      "workInProgress": "1",
-      "github": "https://github.com/zexach",
-      "demo": "...",
-      "figma": "https://figma.com/file/PeGvVj1nuS82KMBfZYiyys"
-    },
-    {
-      "id": "praksa.ba",
-      "thumbnail": "https://i.imgur.com/A8x5MWtl.png",
-      "image": "https://i.imgur.com/A8x5MWt.png",
-      "title": "praksa.ba",
-      "shortDesc": "praksa.ba can help you find your first internship in an IT company in Bosnia and Herzegovina. We maintain a database of currently available internships.",
-      "desc": "Praksa.ba is a CRUD application I created for learning purposes. I used .NET MAUI as the primary technology and focused on developing for the Android platform. MongoDB and ExpressJS was used to provide APIs for application. Users can register as either a company or a student. Students can search for open internships and preview them, while companies can add, edit, or delete internships. Both roles have their own profile pages which they can edit. ",
-      "technologies": [".NET MAUI", "ExpressJS", "MongoDB"],
-      "workInProgress": "0",
-      "github": "https://github.com/zexach/praksa.ba",
-      "demo": "No preview",
-      "figma": ""
-    },
-    {
-      "id": "rockPaperScissors",
-      "thumbnail": "https://i.imgur.com/l8R3mcJh.png",
-      "image": "https://i.imgur.com/l8R3mcJ.png",
-      "title": "Rock Paper Scissors",
-      "shortDesc": "Rock Paper Scissors is a game played to settle disputes between two people. Thought to be a game of chance that depends on random luck similar to flipping coins",
-      "desc": "Rock paper scissors is a simple game I created using Vue3. Users can test their luck by playing game against computer. Users are able to view optimal layout for the game on their device's screen size. Their score is counted after every played round.",
-      "technologies": ["JS", "Vue.js", "CSS"],
-      "workInProgress": "0",
-      "github": "https://github.com/zexach/rock-paper-scissors",
-      "demo": "https://fliflajflus.netlify.app/",
-      "figma": ""
-    }
-  ]
+  {
+    "id": "rest-countries",
+    "thumbnail": "https://i.imgur.com/kZjHDu7l.png",
+    "image": "https://i.imgur.com/kZjHDu7.png",
+    "title": "REST Countries",
+    "shortDesc": "REST Countries gives you info about countries all around the globe. Explore every continent and meet countries you didn't even know existed",
+    "desc": "REST Countries is one of the very first projects I've done using Vue3. REST Countries API was used to pull country info and display it to end-user. User is able to see all countries from the API on homepage, search for specific country by using input field, filter countries by region, see more details about every country by clicking on it.",
+    "technologies": ["JS", "Vue.js", "CSS"],
+    "workInProgress": "0",
+    "github": "https://github.com/zexach/rest-countries",
+    "demo": "https://learn-countries.netlify.app/",
+    "figma": ""
+  },
+  {
+    "id": "travel-pal",
+    "thumbnail": "https://i.imgur.com/jE99Iirl.png",
+    "image": "https://i.imgur.com/jE99Iir.png",
+    "title": "TravelPal",
+    "shortDesc": "You love to travel? TravelPal is way to go then. TravelPal is the place where you can find your new pal to travel with or host for your next vacation",
+    "desc": "TravelPal is my college project, which is still in progress, where I need to create and design a concept for a web app. After that, I have to create full-stack app that I previously designed. Currently, I completed desktop version design and few pages for mobile version. Generally, TravelPal is application for travel community. TravelPal helps user to meet new people by traveling together. User can find host for his next travel too. TravelPal contains feed also, where users can share their experience from vacation. ",
+    "technologies": ["React", "SCSS", "Spring Boot"],
+    "workInProgress": "1",
+    "github": "https://github.com/zexach",
+    "demo": "...",
+    "figma": "https://figma.com/file/PeGvVj1nuS82KMBfZYiyys"
+  },
+  {
+    "id": "praksa-ba",
+    "thumbnail": "https://i.imgur.com/A8x5MWtl.png",
+    "image": "https://i.imgur.com/A8x5MWt.png",
+    "title": "praksa.ba",
+    "shortDesc": "praksa.ba can help you find your first internship in an IT company in Bosnia and Herzegovina. We maintain a database of currently available internships.",
+    "desc": "Praksa.ba is a CRUD application I created for learning purposes. I used .NET MAUI as the primary technology and focused on developing for the Android platform. MongoDB and ExpressJS was used to provide APIs for application. Users can register as either a company or a student. Students can search for open internships and preview them, while companies can add, edit, or delete internships. Both roles have their own profile pages which they can edit. ",
+    "technologies": [".NET MAUI", "ExpressJS", "MongoDB"],
+    "workInProgress": "0",
+    "github": "https://github.com/zexach/praksa.ba",
+    "demo": "No preview",
+    "figma": ""
+  },
+  {
+    "id": "rock-paper-scissors",
+    "thumbnail": "https://i.imgur.com/l8R3mcJh.png",
+    "image": "https://i.imgur.com/l8R3mcJ.png",
+    "title": "Rock Paper Scissors",
+    "shortDesc": "Rock Paper Scissors is a game played to settle disputes between two people. Thought to be a game of chance that depends on random luck similar to flipping coins",
+    "desc": "Rock paper scissors is a simple game I created using Vue3. Users can test their luck by playing game against computer. Users are able to view optimal layout for the game on their device's screen size. Their score is counted after every played round.",
+    "technologies": ["JS", "Vue.js", "CSS"],
+    "workInProgress": "0",
+    "github": "https://github.com/zexach/rock-paper-scissors",
+    "demo": "https://fliflajflus.netlify.app/",
+    "figma": ""
+  }
+]
