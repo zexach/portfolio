@@ -1,11 +1,24 @@
 [
   {
+    "id": "ez-softwara",
+    "thumbnail": "https://imgur.com/AsFQ809.png",
+    "image": "https://imgur.com/AsFQ809.png",
+    "title": "softwara",
+    "shortDesc": "Explore how Softwara can drive your business forward with tailored software solutions and exceptional service by connecting with us through our contact section.",
+    "desc": "Application, built with TypeScript and React, allows users to discover and explore cutting-edge software solutions and services, offering insights into our team's expertise, successful project implementations, and client success stories.",
+    "technologies": ["Typescript", "React", "SCSS"],
+    "workInProgress": "0",
+    "github": "https://github.com/zexach/softwara",
+    "demo": "https://ez-softwara.netlify.app/",
+    "figma": ""
+  },
+  {
     "id": "ez-tmdb",
     "thumbnail": "https://i.imgur.com/rx7VVyU.png",
     "image": "https://i.imgur.com/rx7VVyU.png",
     "title": "The Movie Database",
     "shortDesc": "Application showcases the top-rated movies and TV shows, offering users an intuitive platform to discover and explore popular titles.",
-    "desc": "application, built with TypeScript and React, allows users to discover and explore top-rated movies and TV shows using the TMDB API. It features a curated list of popular titles, a search function to find any movie or TV show, and detailed views with ratings, reviews, and summaries. Styled with SCSS for a sleek design, the application is responsive and works seamlessly across all devices.",
+    "desc": "Application, built with TypeScript and React, allows users to discover and explore top-rated movies and TV shows using the TMDB API. It features a curated list of popular titles, a search function to find any movie or TV show, and detailed views with ratings, reviews, and summaries. Styled with SCSS for a sleek design, the application is responsive and works seamlessly across all devices.",
     "technologies": ["Typescript", "React", "SCSS"],
     "workInProgress": "0",
     "github": "https://github.com/zexach/the-movie-db",
